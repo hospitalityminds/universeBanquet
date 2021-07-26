@@ -2147,6 +2147,14 @@ input.datepicker:hover+span.cat_cal_icon i {
     color: #d5af30;
 }
 
+.cat_button .btn a {
+    color: white;
+}
+
+.cat_button .btn a:hover {
+    color: #d5af30;
+}
+
 .cat_button .btn:hover:before {
     -webkit-transform: scaleY(1);
     transform: scaleY(1);
