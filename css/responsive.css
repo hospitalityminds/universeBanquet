@@ -459,6 +459,23 @@
 }
 
 @media(max-width:768px) {
+    body,
+    html {
+        overflow-x: hidden;
+    }
+    .cat_book_inner .container {
+        margin-top: 0px;
+        background-color: #d5ae3086;
+        width: 100%;
+        padding: 5px;
+    }
+    .cat_top_video_wrapper .cat_video_img_wrapper video {
+        display: none;
+    }
+    .cat_video_img_wrapperMobile {
+        display: block;
+        visibility: visible;
+    }
     .cat_banner_four .cat_menus_img {
         z-index: 10;
         position: relative;
@@ -755,6 +772,10 @@
 }
 
 @media(min-width:480px) and (max-width:767px) {
+    body,
+    html {
+        overflow-x: hidden;
+    }
     .cat_banner_four .cat_spcl_menu_content {
         position: relative;
     }

@@ -224,6 +224,10 @@ h6,
     display: none;
 }
 
+.cat_video_img_wrapperMobile video {
+    display: none;
+}
+
 .cat_heading_wrapper {
     width: 100%;
     float: left;
@@ -231,6 +235,13 @@ h6,
     overflow: hidden;
     z-index: 100000000;
     position: relative;
+}
+
+.cat_book_inner .container {
+    margin-top: 550px;
+    background-color: #d5ae3086;
+    width: 100%;
+    padding: 5px;
 }
 
 .cat_top_heading {
@@ -666,6 +677,16 @@ span.cat_subheading {
     font-size: 25px;
     color: #d5af30;
     font-family: 'Niconne', cursive;
+}
+
+span.text {
+    width: 100%;
+    float: left;
+    font-size: 20px;
+    font-weight: 200;
+    font-style: lighter;
+    color: #d5af30;
+    font-family: 'Montserrat';
 }
 
 .cat_section_headings h4 {
